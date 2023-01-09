@@ -58,7 +58,34 @@ export const List = styled.ul`
         }
 
     @media (max-width: 1000px) {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        opacity: 0;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: white;
+        position: fixed;
+        top: 7rem;
+        right: 0rem;
+        max-width: 11rem;
+        height: 100%;
+            li {
+                background-color: var(--White);
+                margin-bottom: 1rem;
+                display: flex;
+                justify-content: center;
+                max-width: 11rem;
+            }
+            li:first-child {
+                margin-top: 2rem;
+            }
+            li button {
+                background-color: white; 
+                color: var(--Grayish-blue);
+            }
+            li:last-child button{
+                background-color: var(--Yellow)
+            }
     }
 `;
 export const ListLi = styled.li`
