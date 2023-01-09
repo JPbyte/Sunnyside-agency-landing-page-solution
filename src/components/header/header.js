@@ -1,26 +1,29 @@
 import React from "react";
 import logo from "../images/logo.svg";
-import { HeaderDiv, List, Achor, Last} from "./styles";
-
+import { HeaderDiv, List, ListLi} from "./styles";
+import { RxTextAlignCenter } from "react-icons/rx";
 
 function Header() {
     return(
         <HeaderDiv>
             <img src={logo} alt="logo"/>
                 <List>
-                    <Achor>
+                    <ListLi>
                         <button>About</button>
-                    </Achor>
-                    <Achor>
+                    </ListLi>
+                    <ListLi>
                         <button>Services</button>
-                    </Achor>
-                    <Achor>
+                    </ListLi>
+                    <ListLi>
                         <button>Projects</button>
-                    </Achor>
-                    <Achor>
-                        <button>Contact</button>
-                    </Achor>
+                    </ListLi>
+                    <ListLi>
+                        <button>CONTACT</button>
+                    </ListLi>
                 </List>
+                <div className="toggle">
+                    <RxTextAlignCenter size="2.5rem" color="white"/>
+                </div>
         </HeaderDiv>
     )
 };
