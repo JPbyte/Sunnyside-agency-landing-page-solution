@@ -4,6 +4,11 @@ import { HeaderDiv, List, ListLi} from "./styles";
 import { RxTextAlignCenter } from "react-icons/rx";
 
 function Header() {
+    
+    function handleToggle() {
+        console.log("oi")
+    };
+
     return(
         <HeaderDiv>
             <img src={logo} alt="logo"/>
@@ -21,8 +26,8 @@ function Header() {
                         <button>CONTACT</button>
                     </ListLi>
                 </List>
-                <div className="toggle">
-                    <RxTextAlignCenter size="2.5rem" color="white"/>
+                <div className="toggle" onClick={handleToggle}>
+                    <RxTextAlignCenter size="2.5rem" color="white" cursor={"pointer"}/>
                 </div>
         </HeaderDiv>
     )

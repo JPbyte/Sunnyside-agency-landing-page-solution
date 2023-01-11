@@ -27,7 +27,18 @@ const GlobalStyle = createGlobalStyle`
         --Grayish-blue: hsl(210, 4%, 67%);
         --White: hsl(0, 0%, 100%);
         --Barlow: 'Barlow', sans-serif;
-        --Fraunces:'Fraunces', serif;
+        --Besley:'Besley', sans-serif;
+    }
+    @keyframes float {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(20px);
+        }
+        100% {
+            transform: translateY(0);
+        }
     }
 `;
 

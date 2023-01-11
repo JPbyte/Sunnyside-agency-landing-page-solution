@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderDiv = styled.div`
-    background-color: rgb(0, 200, 255);
+    background-color: hsl(200, 100%, 62%);
     width: 100%;
     height: 7rem;
     padding: 2.6rem 3rem;
@@ -86,19 +86,22 @@ export const List = styled.ul`
             li:last-child button{
                 background-color: var(--Yellow)
             }
+            &.active{
+                opacity: 1;
+            }
     }
 `;
 export const ListLi = styled.li`
     button{
         color: var(--White);
         font-size: 1.1rem;
-        background-color: rgb(0, 200, 255);
+        background-color: hsl(200, 100%, 62%);
         border: none;
         transition: 0.3s ease-in-out;
         cursor: pointer;
-        :hover{
-            color: black;
-        }
+            :hover{
+                color: black;
+            }
     }
     
 `;
