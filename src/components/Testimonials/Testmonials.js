@@ -3,6 +3,7 @@ import { TestmunialsDiv } from './style';
 import Emily from '../images/image-emily.jpg';
 import Thomas from '../images/image-thomas.jpg';
 import Jennie from '../images/image-jennie.jpg';
+
 export default function Testmunials() {
     return(
         <TestmunialsDiv>

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TestmunialsDiv = styled.div`
 
-    height: 35rem;
+    height: 55rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
