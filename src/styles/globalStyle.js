@@ -40,6 +40,14 @@ const GlobalStyle = createGlobalStyle`
             transform: translateY(0);
         }
     }
+    @keyframes rotate {
+        to{
+            transform: rotate(0deg);
+        }
+        from{
+            transform: rotate(360deg);
+        }
+    }
 `;
 
 export default GlobalStyle;

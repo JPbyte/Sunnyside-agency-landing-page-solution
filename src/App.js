@@ -5,6 +5,7 @@ import Orange from "./components/main orange/orange";
 import Container from "./components/main/main";
 import Testmunials from './components/Testimonials/Testmonials';
 import Gallery from './components/gallery/gallery';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Container />
       <Testmunials />
       <Gallery />
+      <Footer />
     </>
   );
 };

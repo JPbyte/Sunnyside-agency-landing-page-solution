@@ -33,14 +33,30 @@ export const TestmunialsDiv = styled.div`
                             font-weight: 700;
                             color: var(--Very-dark-grayish-blue);
                         }
-                        img{
-                            width: 100%;
-                            max-width: 5rem;
-                            border-radius: 50%;
-                            transition: 0.4s;
+                        .image-P1{
+                            position: relative;
+                                &::after{
+                                content: "";
+                                left: -0.1rem;
+                                top: -0.1rem;
+                                height: 5.2rem;
+                                width: 5.2rem;
+                                position: absolute;
+                                background: rgb(25,83,107);
+                                background: linear-gradient(193deg, hsl(7, 99%, 70%) 50%, hsl(51, 100%, 49%) 48%);
+                                border-radius: 50%;
+                                z-index: -1;
+                                animation: rotate 1s infinite ease-in-out;
+                            }
+                            img{
+                                width: 100%;
+                                max-width: 5rem;
+                                border-radius: 50%;
+                                transition: 0.4s;
                                 &:hover{
                                     transform: scale(1.02);
                                 }
+                            }
                         }
                         h4{
                             text-align: center;
@@ -67,13 +83,30 @@ export const TestmunialsDiv = styled.div`
                             font-weight: 700;
                             color: var(--Very-dark-grayish-blue);
                         }
-                        img{
-                            width: 100%;
-                            max-width: 5rem;
-                            border-radius: 50%;
+                        .image-P2{
+                            position: relative;
+                                &::after{
+                                content: "";
+                                left: -0.1rem;
+                                top: -0.1rem;
+                                height: 5.2rem;
+                                width: 5.2rem;
+                                position: absolute;
+                                background: rgb(25,83,107);
+                                background: linear-gradient(193deg, hsl(7, 99%, 70%) 50%, hsl(51, 100%, 49%) 48%);
+                                border-radius: 50%;
+                                z-index: -1;
+                                animation: rotate 1s infinite ease-in-out;
+                            }
+                            img{
+                                width: 100%;
+                                max-width: 5rem;
+                                border-radius: 50%;
+                                transition: 0.4s;
                                 &:hover{
                                     transform: scale(1.02);
                                 }
+                            }
                         }
                         h4{
                             text-align: center;
@@ -83,8 +116,8 @@ export const TestmunialsDiv = styled.div`
                         span{
                             color: var(--Grayish-blue);
                         }
-                }
-                .perfil_3{
+                    }
+                    .perfil_3{
                     width: 100%;
                     max-width: 23rem;
                     height: 18rem;
@@ -99,14 +132,30 @@ export const TestmunialsDiv = styled.div`
                             font-family: var(--Barlow);
                             color: var(--Very-dark-grayish-blue);
                         }
-                        img{
-                            width: 100%;
-                            max-width: 5rem;
-                            border-radius: 50%;
-                            transition: 0.4s;
+                        .image-P3{
+                            position: relative;
+                                &::after{
+                                content: "";
+                                left: -0.1rem;
+                                top: -0.1rem;
+                                height: 5.2rem;
+                                width: 5.2rem;
+                                position: absolute;
+                                background: rgb(25,83,107);
+                                background: linear-gradient(193deg, hsl(7, 99%, 70%) 50%, hsl(51, 100%, 49%) 48%);
+                                border-radius: 50%;
+                                z-index: -1;
+                                animation: rotate 1s infinite ease-in-out;
+                            }
+                            img{
+                                width: 100%;
+                                max-width: 5rem;
+                                border-radius: 50%;
+                                transition: 0.4s;
                                 &:hover{
                                     transform: scale(1.02);
                                 }
+                            }
                         }
                         h4{
                             text-align: center;
