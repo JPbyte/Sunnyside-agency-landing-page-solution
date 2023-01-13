@@ -60,15 +60,16 @@ export const List = styled.ul`
     @media (max-width: 1000px) {
         display: flex;
         flex-direction: column;
-        opacity: 0;
-        justify-content: flex-start;
+        opacity: ${({open}) => (open ? "0" : "1" )};
+        justify-content: space-evenly;
         align-items: center;
         background-color: white;
-        position: fixed;
+        position: absolute;
         top: 7rem;
         right: 0rem;
-        max-width: 11rem;
-        height: 100%;
+        max-width: 100%;
+        height: 50%;
+        z-index: 2;
             li {
                 background-color: var(--White);
                 margin-bottom: 1rem;

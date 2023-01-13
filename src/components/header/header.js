@@ -1,18 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 import logo from "../images/logo.svg";
 import { HeaderDiv, List, ListLi} from "./styles";
 import { RxTextAlignCenter } from "react-icons/rx";
 
 function Header() {
-    
-    function handleToggle() {
-        console.log("oi")
-    };
+
+    const [showMenu, setMenu] = useState(false);
 
     return(
         <HeaderDiv>
             <img src={logo} alt="logo"/>
-                <List>
+                <List open={showMenu}>
                     <ListLi>
                         <button>About</button>
                     </ListLi>
@@ -26,8 +24,8 @@ function Header() {
                         <button>CONTACT</button>
                     </ListLi>
                 </List>
-                <div className="toggle" onClick={handleToggle}>
-                    <RxTextAlignCenter size="2.5rem" color="white" cursor={"pointer"}/>
+                <div className="toggle">
+                    <RxTextAlignCenter onClick={() => setMenu(!showMenu)} size="2.5rem" color="white" cursor={"pointer"}/>
                 </div>
         </HeaderDiv>
     )

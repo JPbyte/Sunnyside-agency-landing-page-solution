@@ -22,6 +22,7 @@ export const DivOrange = styled.div`
     img{
         height: 8rem;
         animation: float 2.5s infinite ease-in-out;
+        z-index: 1;
     }
 
     @media (max-width: 1000px) {
