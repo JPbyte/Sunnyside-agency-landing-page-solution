@@ -60,7 +60,7 @@ export const List = styled.ul`
     @media (max-width: 1000px) {
         display: flex;
         flex-direction: column;
-        opacity: ${({open}) => (open ? "0" : "1" )};
+        opacity: ${({open}) => (open ? "1" : "0" )};
         justify-content: space-evenly;
         align-items: center;
         background-color: white;
