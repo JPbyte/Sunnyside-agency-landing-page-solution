@@ -33,8 +33,8 @@ Desktop Design
 
 ### Links
 
-- Solution URL: [Sunnyside agency landing page solution]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [Sunnyside agency landing page solution](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-Q0VsHtxJ8c)
+- Live Site URL: [Add live site URL here](https://sunnyside-agency-landing-page-solution.vercel.app)
 
 ## My process
 
